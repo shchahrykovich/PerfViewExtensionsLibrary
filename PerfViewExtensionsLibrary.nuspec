@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata schemaVersion="2">
+    <id>PerfViewExtensionsLibrary</id>
+    <version>1.7.0.0</version>
+    <authors>Sergey Shchegrikovich</authors>
+    <description>PerfViewExtensionsLibrary</description>
+    <summary>PerfViewExtensionsLibrary.</summary>
+    <language>en-US</language>
+
+  </metadata>
+
+  <files>
+    <file src="\libs\*.dll"  target="libs" />
+    <file src="\libs\*.exe"  target="libs" />
+  </files>
+  
+</package>
