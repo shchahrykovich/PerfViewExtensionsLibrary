@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata schemaVersion="2">
     <id>PerfViewExtensionsLibrary</id>
-    <version>1.7.0.0</version>
+    <version>1.7.0.1</version>
     <authors>Sergey Shchegrikovich</authors>
     <description>PerfViewExtensionsLibrary</description>
     <summary>PerfViewExtensionsLibrary.</summary>
@@ -11,8 +11,8 @@
   </metadata>
 
   <files>
-    <file src="\libs\*.dll"  target="libs" />
-    <file src="\libs\*.exe"  target="libs" />
+    <file src="\libs\*.dll"  target="lib\net40" />
+    <file src="\libs\*.exe"  target="lib\net40" />
   </files>
   
 </package>
